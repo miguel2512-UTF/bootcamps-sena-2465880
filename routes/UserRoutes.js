@@ -11,5 +11,6 @@ router.route('/')
 router.route('/:id')
     .get(getSingleUser)
     .put(actualizarUser)
+    .delete(borrarUser)
     
 module.exports = router
